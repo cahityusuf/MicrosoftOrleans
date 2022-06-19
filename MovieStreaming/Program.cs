@@ -1,26 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
+using MovieStreaming.Messages;
 using Proto;
 
 namespace MovieStreaming
-{
-    public class PlaybackActor : IActor
-    {
-        public PlaybackActor() => Console.WriteLine("Creating a PlaybackActor");
-        public Task ReceiveAsync(IContext context)
-        {
-            switch (context.Message)
-            {
-                case string movieTitle:
-                    Console.WriteLine($"Received movie title {movieTitle}");
-                    break;
-                case int userId:
-                    Console.WriteLine($"Received user ID {userId}");
-                    break;
-            }
-            return Task.CompletedTask;
-        }
-    }
+{ 
 
     class Program
     {
@@ -33,8 +17,7 @@ namespace MovieStreaming
             var props = Props.FromProducer(() => new PlaybackActor());
             var pid = system.Root.Spawn(props);
 
-            system.Root.Send(pid, "The Movie");
-            system.Root.Send(pid, 44);
+            system.Root.Send(pid, new PlayMovieMessage("The Movie", 44));
 
             Console.ReadLine();
         }
