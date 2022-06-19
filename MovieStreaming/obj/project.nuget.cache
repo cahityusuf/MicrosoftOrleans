@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "LMw1wkR9WAJkD3KvL0QFPWjVaTyJEknv8C10BzNSi7mMkwcdoOArClxg2CYlsOHdOz6jCviBlKKnC92aBVYrsQ==",
+  "success": true,
+  "projectFilePath": "C:\\Documention\\RiseDomain\\Proto.Actor\\MovieStreaming\\MovieStreaming.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cahit\\.nuget\\packages\\google.protobuf\\3.21.0\\google.protobuf.3.21.0.nupkg.sha512",
+    "C:\\Users\\cahit\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\cahit\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\cahit\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\cahit\\.nuget\\packages\\proto.actor\\0.33.0\\proto.actor.0.33.0.nupkg.sha512",
+    "C:\\Users\\cahit\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\cahit\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\cahit\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\cahit\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
